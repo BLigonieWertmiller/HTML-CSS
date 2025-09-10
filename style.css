@@ -1,0 +1,11 @@
+selector{
+    h1{
+        color: #84482D;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    p{
+        color: #1C1D1F;
+        
+    }
+}
