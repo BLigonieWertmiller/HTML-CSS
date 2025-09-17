@@ -8,17 +8,18 @@
         font-size: 18px;
         font-weight: 1.5em;
     }
-    div{
-        display: flex;
-        justify-content: space-around;
-        border: 2px solid #BE6841;
+    .recuadro {
+        display: flex;                  /* imágenes en fila */
+        justify-content: center;        /* centradas */
+        border: 2px solid #BE6841;      /* borde bordo */
         padding: 20px;
-        width: 150px;
-        margin: 100px auto;
+        margin: 100px auto;              /* centrado en la página */
+        width: 150px fit-content;             /* el recuadro se ajusta al contenido */
     }
-    div img {
-        max-width: 300px; /* ajusta el ancho máximo de cada imagen */
+
+    .recuadro img {
+        max-width: 300px;   /* ajusta el tamaño máximo de las imágenes */
         height: auto;
-        margin: 0 10px; /* espacio entre imágenes */
+        margin: 0 10px;     /* espacio entre imágenes */
     }
 
